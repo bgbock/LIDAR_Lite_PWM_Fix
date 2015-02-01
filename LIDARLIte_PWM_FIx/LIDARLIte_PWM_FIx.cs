@@ -3,7 +3,7 @@ using System.Threading;
 using Microsoft.SPOT.Hardware;
 using SecretLabs.NETMF.Hardware.NetduinoPlus;
 
-namespace WoodRobotics.NetDuino
+namespace WoodRobotics.NetDuino.LIDAR
 {
     
     /// <summary>
