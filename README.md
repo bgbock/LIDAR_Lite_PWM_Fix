@@ -16,13 +16,13 @@ Bend, OR 97709
 ## Software Solution
 
 ### Dependencies
-1. Arduino Uno compatible Board
-2. Arduino IDE (1.0.6 or newer)
+1. Netduino 2 Plus
+2. Visual Studio
 3. USB Cable
 4. LIDAR-Lite Sensor made prior to January 15, 2015
 
 ### Installation
-Download repository, open with Arduino IDE and upload to Arduino
+Download repository, open with Visual Studio and upload to Netduino
 
 ### Arduino Setup
 
@@ -40,7 +40,7 @@ SDA|Unused
 GND|GND
 
 ### Usage
-1. Connect to Arduino and upload code
-2. Open the serial monitor (make sure the baud rate is set to 9600)
+1. Connect to Netduino and upload code
+2. Open the serial monitor (make sure the baud rate is set to 19200)
 3. The distance will be measured in cm, if a "0" is recieved by the Arduino it will reset the LIDAR-Lite and start reading again (rather than lockup)
 
