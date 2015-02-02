@@ -24,17 +24,13 @@ Bend, OR 97709
 ### Installation
 Download repository, open with Visual Studio and upload to Netduino
 
-### Arduino Setup
-
-![](http://pulsedlight3d.net/assets.pl3d/llpwmfix.jpg)
-
 #### LIDAR-Lite PWM with PWR_EN setup
 
 LIDAR-Lite Cable|Arduino Pin
 :---|:---
 5V|5v
-PWR_EN|Digital Pin 4
-MODE|Connect to 1k ohm resistor and Digital Pin 3
+PWR_EN|Digital Pin 1
+MODE|Connect to 1k ohm resistor and Digital Pin 0
 SCL|Unused
 SDA|Unused
 GND|GND
@@ -42,5 +38,5 @@ GND|GND
 ### Usage
 1. Connect to Netduino and upload code
 2. Open the serial monitor (make sure the baud rate is set to 19200)
-3. The distance will be measured in cm, if a "0" is recieved by the Arduino it will reset the LIDAR-Lite and start reading again (rather than lockup)
+3. The distance will be measured in cm
 
